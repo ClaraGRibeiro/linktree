@@ -1,7 +1,7 @@
 export const users = {
   otmg: {
     nome: "OTMG",
-    foto: "/images/otmg.png",
+    foto: "/images/otmg.jpg",
     subtitulo: "Observatório de Transporte de Minas Gerais",
     site: "https://otmg.org/",
     linkedin:
@@ -12,49 +12,54 @@ export const users = {
       {
         nome: "Narciso Ferreira",
         slug: "narciso_ferreira",
-        foto: "/images/narciso.png",
+        foto: "/images/narciso.jpg",
       },
       {
         nome: "Amanda Andrade",
         slug: "amanda_andrade",
-        foto: "/images/amanda.png",
+        foto: "/images/amanda.jpg",
+      },
+      {
+        nome: "Ana",
+        slug: "ana",
+        foto: "/images/ana.jpg",
       },
       {
         nome: "Clara Ribeiro",
         slug: "clara_ribeiro",
-        foto: "/images/clara.png",
+        foto: "/images/clara.jpg",
       },
       {
         nome: "Érika Chaves",
         slug: "erika_chaves",
-        foto: "/images/erika.png",
+        foto: "/images/erika.jpg",
       },
       {
         nome: "Gabriella Dias",
         slug: "gabriella_dias",
-        foto: "/images/gabriella.png",
+        foto: "/images/gabriella.jpg",
       },
       {
         nome: "Julia Lopes",
         slug: "julia_lopes",
-        foto: "/images/julia.png",
+        foto: "/images/julia.jpg",
       },
       {
         nome: "Vanderson Silva",
         slug: "vanderson_silva",
-        foto: "/images/vanderson.png",
+        foto: "/images/vanderson.jpg",
       },
       {
         nome: "Yago Maia",
         slug: "yago_maia",
-        foto: "/images/yago.png",
+        foto: "/images/yago.jpg",
       },
     ]
   },
 
   narciso_ferreira: {
     nome: "Narciso Ferreira",
-    foto: "/images/narciso.png",
+    foto: "/images/narciso.jpg",
     subtitulo: "Pesquisador + Professor",
 
     lattes: "http://lattes.cnpq.br/5703335372799074",
@@ -73,10 +78,42 @@ export const users = {
       },
     ],
   },
+  guilherme_leiva: {
+    nome: "Guilherme Leiva",
+    foto: "/images/guilherme.jpg",
+    subtitulo: "Pesquisador + Professor",
+
+    lattes: "http://lattes.cnpq.br/0555285416153310",
+    instagram: "https://www.instagram.com/profmobilidade/",
+    linkedin:
+      "https://www.linkedin.com/in/guilherme-leiva-142b15361/",
+    whatsapp: "#",
+    projetos: [
+      {
+        nome: "OTMG",
+        url: "/",
+      },
+      {
+        nome: "NuMob",
+        url: "#",
+      },
+    ],
+  },
+
+  ana_mazalotti: {
+    nome: "Ana Mazalotti",
+    foto: "/images/ana.jpg",
+    subtitulo: "Arquiteta + Urbanista",
+
+    lattes: "http://lattes.cnpq.br/3467561627375725",
+    instagram: "#",
+    linkedin: "https://www.linkedin.com/in/ana-luiza-mazalotti-7b934b6b/?skipRedirect=true",
+    whatsapp: "https://wa.me/5521987721303",
+  },
 
   clara_ribeiro: {
     nome: "Clara Ribeiro",
-    foto: "/images/clara.png",
+    foto: "/images/clara.jpg",
     subtitulo: "Dev + Analista de Sistemas",
 
     lattes: "http://lattes.cnpq.br/1683355695375761",
@@ -88,7 +125,7 @@ export const users = {
 
   gabriella_dias: {
     nome: "Gabriella Dias",
-    foto: "/images/gabriella.png",
+    foto: "/images/gabriella.jpg",
     subtitulo: "Publicitária + Analista de Comunicação",
 
     lattes: "http://lattes.cnpq.br/8914670956445141",
@@ -100,7 +137,7 @@ export const users = {
 
   vanderson_silva: {
     nome: "Vanderson Silva",
-    foto: "/images/vanderson.png",
+    foto: "/images/vanderson.jpg",
     subtitulo: "Engenheiro Civil + Orçamentista de Obra",
 
     lattes: "http://lattes.cnpq.br/4440159183122800",
@@ -112,7 +149,7 @@ export const users = {
 
   erika_chaves: {
     nome: "Érika Chaves",
-    foto: "/images/erika.png",
+    foto: "/images/erika.jpg",
     subtitulo: "Cientista Social",
 
     lattes: "http://lattes.cnpq.br/0522436110177191",
@@ -124,7 +161,7 @@ export const users = {
 
   amanda_andrade: {
     nome: "Amanda Andrade",
-    foto: "/images/amanda.png",
+    foto: "/images/amanda.jpg",
     subtitulo: "Engenheira Civil",
 
     lattes: "http://lattes.cnpq.br/1350365901734409",
@@ -136,7 +173,7 @@ export const users = {
 
   yago_maia: {
     nome: "Yago Maia",
-    foto: "/images/yago.png",
+    foto: "/images/yago.jpg",
     subtitulo: "Engenheiro de Software + FullStack",
 
     lattes: "http://lattes.cnpq.br/1511526124921154",
@@ -148,7 +185,7 @@ export const users = {
 
   julia_lopes: {
     nome: "Julia Lopes",
-    foto: "/images/julia.png",
+    foto: "/images/julia.jpg",
     subtitulo: "Arquiteta + Urbanista",
 
     lattes: "http://lattes.cnpq.br/2105599156924639",
