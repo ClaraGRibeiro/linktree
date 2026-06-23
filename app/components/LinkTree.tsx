@@ -4,6 +4,7 @@ import {
     BriefcaseBusiness,
     Camera,
     ChevronDown,
+    FileUser,
     FolderKanban,
     Globe,
     MapPin,
@@ -302,7 +303,7 @@ export default function LinkTree({
                         className="flex items-center w-full px-5 py-4 rounded-2xl bg-emerald-600 hover:bg-emerald-500 text-white font-semibold shadow-lg transition-all duration-300 hover:-translate-y-1"
                     >
                         <div className="w-8 flex justify-center">
-                            <Globe size={20} />
+                            <FileUser size={20} />
                         </div>
 
                         <span className="flex-1 text-center">
