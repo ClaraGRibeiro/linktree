@@ -15,6 +15,11 @@ export const users = {
         foto: "/images/narciso.jpg",
       },
       {
+        nome: "Guilherme Leiva",
+        slug: "guilherme_leiva",
+        foto: "/images/guilherme.jpg",
+      },
+      {
         nome: "Amanda Andrade",
         slug: "amanda_andrade",
         foto: "/images/amanda.jpg",
