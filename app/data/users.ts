@@ -20,6 +20,16 @@ export const users = {
         foto: "/images/guilherme.jpg",
       },
       {
+        nome: "Renato Guimarães",
+        slug: "renato_guimaraes",
+        foto: "/images/renato.jpg",
+      },
+      {
+        nome: "Bianca Lara",
+        slug: "bianca_lara",
+        foto: "/images/bianca.jpg",
+      },
+      {
         nome: "Amanda Andrade",
         slug: "amanda_andrade",
         foto: "/images/amanda.jpg",
@@ -93,7 +103,51 @@ export const users = {
     instagram: "https://www.instagram.com/profmobilidade/",
     linkedin:
       "https://www.linkedin.com/in/guilherme-leiva-142b15361/",
-    whatsapp: "#",
+    whatsapp: "https://wa.me/553184049543",
+    projetos: [
+      {
+        nome: "OTMG",
+        url: "/",
+      },
+      {
+        nome: "NuMob",
+        url: "#",
+      },
+    ],
+  },
+
+  renato_guimaraes: {
+    nome: "Renato Guimarães",
+    foto: "/images/renato.jpg",
+    subtitulo: "Pesquisador + Professor",
+
+    lattes: "http://lattes.cnpq.br/3548716663495317",
+    instagram: "https://www.instagram.com/renato.g.ribeiro/",
+    linkedin:
+      "#",
+    whatsapp: "https://wa.me/553192440455",
+    projetos: [
+      {
+        nome: "OTMG",
+        url: "/",
+      },
+      {
+        nome: "NuMob",
+        url: "#",
+      },
+    ],
+  },
+
+  bianca_lara: {
+    nome: "Bianca Lara",
+    foto: "/images/bianca.jpg",
+    subtitulo: "Pesquisadora + Professora",
+
+    lattes: "http://lattes.cnpq.br/1788248237463078",
+    instagram: "https://www.instagram.com/biancaglara/",
+    linkedin:
+      "https://www.linkedin.com/in/bianca-gon%C3%A7alves-lara-067a19288/",
+    whatsapp: "https://wa.me/553194658419",
     projetos: [
       {
         nome: "OTMG",

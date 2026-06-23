@@ -50,6 +50,9 @@ export default function LinkTree({
             "Observatório de Transporte de Minas Gerais":
                 "Observatório de Transporte de Minas Gerais",
 
+            "Pesquisadora + Professora":
+                "Pesquisadora + Professora",
+
             "Pesquisador + Professor":
                 "Pesquisador + Professor",
 
@@ -79,6 +82,9 @@ export default function LinkTree({
             "Observatório de Transporte de Minas Gerais":
                 "Minas Gerais Transport Observatory",
 
+            "Pesquisadora + Professora":
+                "Researcher + Professor",
+
             "Pesquisador + Professor":
                 "Researcher + Professor",
 
@@ -107,6 +113,9 @@ export default function LinkTree({
         es: {
             "Observatório de Transporte de Minas Gerais":
                 "Observatorio de Transportes de Minas Gerais",
+
+            "Pesquisadora + Professora":
+                "Investigadora + Profesora",
 
             "Pesquisador + Professor":
                 "Investigador + Profesor",
