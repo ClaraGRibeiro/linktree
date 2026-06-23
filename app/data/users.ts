@@ -127,8 +127,8 @@ export const users = {
     foto: "/images/amanda.png",
     subtitulo: "Engenheira Civil",
 
-    lattes: "#",
-    instagram: "#",
+    lattes: "http://lattes.cnpq.br/1350365901734409",
+    instagram: "https://www.instagram.com/aevellyna/",
     linkedin:
       "https://www.linkedin.com/in/amanda-evellyn/",
     whatsapp: "https://wa.me/553892403001",
