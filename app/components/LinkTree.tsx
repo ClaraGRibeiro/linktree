@@ -270,19 +270,19 @@ export default function LinkTree({
                     </button>
                 </div>
                 {profile.nome !== "OTMG" && (
-  <Link
-    href="/"
-    className="absolute top-4 left-4 hover:scale-110 transition"
-  >
-    <Image
-      src="/images/otmg.png"
-      alt="OTMG"
-      width={48}
-      height={48}
-      className="rounded-full border border-emerald-400"
-    />
-  </Link>
-)}
+                    <Link
+                        href="/"
+                        className="absolute top-4 left-4 hover:scale-110 transition"
+                    >
+                        <Image
+                            src="/images/otmg.jpg"
+                            alt="OTMG"
+                            width={48}
+                            height={48}
+                            className="rounded-full border border-emerald-400"
+                        />
+                    </Link>
+                )}
                 {/* LINKS */}
                 <div className="mt-8 space-y-4">
                     {/* LATTES */}
