@@ -53,8 +53,8 @@ export default function LinkTree({
             "Pesquisador + Professor":
                 "Pesquisador + Professor",
 
-            "Dev + Analista de Sistemas":
-                "Dev + Analista de Sistemas",
+            "Desenvolvedora + Analista de Sistemas":
+                "Desenvolvedora + Analista de Sistemas",
 
             "Publicitária + Analista de Comunicação":
                 "Publicitária + Analista de Comunicação",
@@ -82,7 +82,7 @@ export default function LinkTree({
             "Pesquisador + Professor":
                 "Researcher + Professor",
 
-            "Dev + Analista de Sistemas":
+            "Desenvolvedora + Analista de Sistemas":
                 "Developer + Systems Analyst",
 
             "Publicitária + Analista de Comunicação":
@@ -111,7 +111,7 @@ export default function LinkTree({
             "Pesquisador + Professor":
                 "Investigador + Profesor",
 
-            "Dev + Analista de Sistemas":
+            "Desenvolvedora + Analista de Sistemas":
                 "Desarrolladora + Analista de Sistemas",
 
             "Publicitária + Analista de Comunicação":
