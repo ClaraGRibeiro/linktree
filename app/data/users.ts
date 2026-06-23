@@ -20,8 +20,8 @@ export const users = {
         foto: "/images/amanda.jpg",
       },
       {
-        nome: "Ana",
-        slug: "ana",
+        nome: "Ana Mazalotti",
+        slug: "ana_mazalotti",
         foto: "/images/ana.jpg",
       },
       {
