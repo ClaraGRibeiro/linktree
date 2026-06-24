@@ -89,7 +89,7 @@ export const users = {
       },
       {
         nome: "NuMob",
-        url: "#",
+        url: "https://canva.link/numob",
       },
     ],
   },
@@ -111,7 +111,7 @@ export const users = {
       },
       {
         nome: "NuMob",
-        url: "#",
+        url: "https://canva.link/numob",
       },
     ],
   },
@@ -133,7 +133,7 @@ export const users = {
       },
       {
         nome: "NuMob",
-        url: "#",
+        url: "https://canva.link/numob",
       },
     ],
   },
@@ -155,7 +155,7 @@ export const users = {
       },
       {
         nome: "NuMob",
-        url: "#",
+        url: "https://canva.link/numob",
       },
     ],
   },
