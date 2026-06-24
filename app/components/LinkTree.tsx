@@ -48,6 +48,9 @@ export default function LinkTree({
         useState(false);
     const subtitles = {
         pt: {
+            "Mobilidade Estratégica":
+                "Mobilidade Estratégica",
+
             "Observatório de Transporte de Minas Gerais":
                 "Observatório de Transporte de Minas Gerais",
 
@@ -80,6 +83,9 @@ export default function LinkTree({
         },
 
         en: {
+            "Mobilidade Estratégica":
+                "Strategic Mobility",
+
             "Observatório de Transporte de Minas Gerais":
                 "Minas Gerais Transport Observatory",
 
@@ -112,6 +118,9 @@ export default function LinkTree({
         },
 
         es: {
+            "Mobilidade Estratégica":
+                "Movilidad Estratégica",
+
             "Observatório de Transporte de Minas Gerais":
                 "Observatorio de Transportes de Minas Gerais",
 
@@ -431,7 +440,6 @@ export default function LinkTree({
                                         <a
                                             key={projeto.nome}
                                             href={projeto.url}
-                                            target={projeto.url === "https://canva.link/numob" ? "_blank" : "_self"}
                                             rel="noopener noreferrer"
                                             className="bg-white text-emerald-900 font-semibold py-4 rounded-xl hover:scale-105 transition"
                                         >

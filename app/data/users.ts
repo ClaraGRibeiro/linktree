@@ -71,6 +71,38 @@ export const users = {
       },
     ]
   },
+  numob: {
+    nome: "NuMob",
+    foto: "/images/numob.jpg",
+    subtitulo: "Mobilidade Estratégica",
+    site: "https://canva.link/numob",
+    linkedin:
+      "https://www.linkedin.com/",
+    whatsapp: "https://api.whatsapp.com/send/?phone=5538992030710",
+    instagram: "https://www.instagram.com/",
+    membros: [
+      {
+        nome: "Narciso Ferreira",
+        slug: "narciso_ferreira",
+        foto: "/images/narciso.jpg",
+      },
+      {
+        nome: "Guilherme Leiva",
+        slug: "guilherme_leiva",
+        foto: "/images/guilherme.jpg",
+      },
+      {
+        nome: "Renato Guimarães",
+        slug: "renato_guimaraes",
+        foto: "/images/renato.jpg",
+      },
+      {
+        nome: "Bianca Lara",
+        slug: "bianca_lara",
+        foto: "/images/bianca.jpg",
+      },
+    ]
+  },
 
   narciso_ferreira: {
     nome: "Narciso Ferreira",
@@ -89,7 +121,7 @@ export const users = {
       },
       {
         nome: "NuMob",
-        url: "https://canva.link/numob",
+        url: "/numob",
       },
     ],
   },
@@ -111,7 +143,7 @@ export const users = {
       },
       {
         nome: "NuMob",
-        url: "https://canva.link/numob",
+        url: "/numob",
       },
     ],
   },
@@ -133,7 +165,7 @@ export const users = {
       },
       {
         nome: "NuMob",
-        url: "https://canva.link/numob",
+        url: "/numob",
       },
     ],
   },
@@ -155,7 +187,7 @@ export const users = {
       },
       {
         nome: "NuMob",
-        url: "https://canva.link/numob",
+        url: "/numob",
       },
     ],
   },
