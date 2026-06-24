@@ -431,6 +431,7 @@ export default function LinkTree({
                                         <a
                                             key={projeto.nome}
                                             href={projeto.url}
+                                            target={projeto.url === "https://canva.link/numob" ? "_blank" : "_self"}
                                             rel="noopener noreferrer"
                                             className="bg-white text-emerald-900 font-semibold py-4 rounded-xl hover:scale-105 transition"
                                         >
