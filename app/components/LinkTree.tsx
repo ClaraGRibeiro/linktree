@@ -297,7 +297,7 @@ export default function LinkTree({
                         />
                     </button>
                 </div>
-                {profile.nome !== "OTMG" && (
+                {profile.nome !== "OTMG" && profile.foto !== "/images/rosario.jpg" && (
                     <Link
                         href="/"
                         className="absolute top-4 left-4 hover:scale-110 transition"
