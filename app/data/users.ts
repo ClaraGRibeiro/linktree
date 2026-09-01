@@ -287,4 +287,16 @@ export const users = {
     whatsapp: "https://wa.me/553898557647",
   },
 
+  rosario_macario: {
+    nome: "Rosário Macário",
+    foto: "/images/rosario.jpg",
+    subtitulo: "Professora + Pesquisadora em Transportes",
+
+    lattes: "http://lattes.cnpq.br/0477584154417573",
+    instagram: "https://www.instagram.com/",
+    linkedin:
+      "https://www.linkedin.com/in/rosário-macario-1981054/",
+    whatsapp: "https://wa.me/351218418303",
+  },
+
 } as const;

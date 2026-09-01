@@ -80,6 +80,9 @@ export default function LinkTree({
 
             "Arquiteta + Urbanista":
                 "Arquiteta + Urbanista",
+
+            "Professora + Pesquisadora em Transportes":
+                "Professora + Pesquisadora em Transportes",
         },
 
         en: {
@@ -115,6 +118,9 @@ export default function LinkTree({
 
             "Arquiteta + Urbanista":
                 "Architect + Urban Planner",
+
+            "Professora + Pesquisadora em Transportes":
+                "Professor + Researcher in Transportation",
         },
 
         es: {
@@ -150,6 +156,9 @@ export default function LinkTree({
 
             "Arquiteta + Urbanista":
                 "Arquitecta + Urbanista",
+
+            "Professora + Pesquisadora em Transportes":
+                "Profesora + Investigadora en Transporte",
         },
     } as const;
     const translations = {
@@ -394,11 +403,12 @@ export default function LinkTree({
                     </a>
 
                     {/* LOCALIZAÇÃO */}
+                    {profile.foto != "/images/rosario.jpg" ?
                     <a
-                        href="https://maps.app.goo.gl/HdPTMCxBNtRiwnd3A"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center w-full px-5 py-4 rounded-2xl bg-teal-700/40 hover:bg-teal-600/40 text-white font-semibold shadow-lg transition-all duration-300 hover:-translate-y-1"
+                    href="https://maps.app.goo.gl/eVdG4WciV4kwXhF88"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center w-full px-5 py-4 rounded-2xl bg-teal-700/40 hover:bg-teal-600/40 text-white font-semibold shadow-lg transition-all duration-300 hover:-translate-y-1"
                     >
                         <div className="w-8 flex justify-center">
                             <MapPin size={20} />
@@ -409,7 +419,25 @@ export default function LinkTree({
                         </span>
 
                         <div className="w-8"></div>
-                    </a>
+                    </a> :
+                     <a
+                    href="https://maps.app.goo.gl/HdPTMCxBNtRiwnd3A"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center w-full px-5 py-4 rounded-2xl bg-teal-700/40 hover:bg-teal-600/40 text-white font-semibold shadow-lg transition-all duration-300 hover:-translate-y-1"
+                    >
+                        <div className="w-8 flex justify-center">
+                            <MapPin size={20} />
+                        </div>
+
+                        <span className="flex-1 text-center text-sm">
+                            Av. Rovisco Pais, 1
+                            <br />
+                            Lisboa, Portugal
+                        </span>
+
+                        <div className="w-8"></div>
+                    </a>}
                     {profile.projetos && (
                         <div className="mt-8">
                             <button
