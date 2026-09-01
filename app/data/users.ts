@@ -287,16 +287,28 @@ export const users = {
     whatsapp: "https://wa.me/553898557647",
   },
 
+  romulo_orrico: {
+    nome: "Romulo Orrico",
+    foto: "/images/romulo.jpg",
+    subtitulo: "Engenheiro Civil + Professor",
+
+    lattes: "http://lattes.cnpq.br/0307508005355403",
+    instagram: "https://www.instagram.com/romulo.orrico/",
+    linkedin:
+      "https://www.linkedin.com/in/romulo-orrico-87894018/",
+    whatsapp: "https://wa.me/5521994088309",
+  },
+
   rosario_macario: {
     nome: "Rosário Macário",
     foto: "/images/rosario.jpg",
-    subtitulo: "Professora + Pesquisadora em Transportes",
+    subtitulo: "Professora + Pesquisadora",
 
     lattes: "http://lattes.cnpq.br/0477584154417573",
     instagram: "https://www.instagram.com/",
     linkedin:
       "https://www.linkedin.com/in/rosário-macario-1981054/",
-    whatsapp: "https://wa.me/351218418303",
+    whatsapp: "tel:+351218418303",
   },
 
 } as const;

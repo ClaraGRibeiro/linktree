@@ -81,8 +81,8 @@ export default function LinkTree({
             "Arquiteta + Urbanista":
                 "Arquiteta + Urbanista",
 
-            "Professora + Pesquisadora em Transportes":
-                "Professora + Pesquisadora em Transportes",
+            "Engenheiro Civil + Professor":
+                "Engenheiro Civil + Professor"
         },
 
         en: {
@@ -119,8 +119,8 @@ export default function LinkTree({
             "Arquiteta + Urbanista":
                 "Architect + Urban Planner",
 
-            "Professora + Pesquisadora em Transportes":
-                "Professor + Researcher in Transportation",
+            "Engenheiro Civil + Professor":
+                "Civil Engineer + Profesor"
         },
 
         es: {
@@ -157,8 +157,8 @@ export default function LinkTree({
             "Arquiteta + Urbanista":
                 "Arquitecta + Urbanista",
 
-            "Professora + Pesquisadora em Transportes":
-                "Profesora + Investigadora en Transporte",
+            "Engenheiro Civil + Professor":
+                "Ingeniero Civil + Profesor"
         },
     } as const;
     const translations = {
