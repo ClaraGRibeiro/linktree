@@ -403,41 +403,61 @@ export default function LinkTree({
                     </a>
 
                     {/* LOCALIZAÇÃO */}
-                    {profile.foto != "/images/rosario.jpg" ?
-                    <a
-                    href="https://maps.app.goo.gl/eVdG4WciV4kwXhF88"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center w-full px-5 py-4 rounded-2xl bg-teal-700/40 hover:bg-teal-600/40 text-white font-semibold shadow-lg transition-all duration-300 hover:-translate-y-1"
-                    >
-                        <div className="w-8 flex justify-center">
-                            <MapPin size={20} />
-                        </div>
+                    {profile.foto == "/images/rosario.jpg" ?
+                        <a
+                            href="https://maps.app.goo.gl/HdPTMCxBNtRiwnd3A"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center w-full px-5 py-4 rounded-2xl bg-teal-700/40 hover:bg-teal-600/40 text-white font-semibold shadow-lg transition-all duration-300 hover:-translate-y-1"
+                        >
+                            <div className="w-8 flex justify-center">
+                                <MapPin size={20} />
+                            </div>
 
-                        <span className="flex-1 text-center text-sm">
-                            {t.local}
-                        </span>
+                            <span className="flex-1 text-center text-sm">
+                                Av. Rovisco Pais, 1
+                                <br />
+                                Lisboa, Portugal
+                            </span>
 
-                        <div className="w-8"></div>
-                    </a> :
-                     <a
-                    href="https://maps.app.goo.gl/HdPTMCxBNtRiwnd3A"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center w-full px-5 py-4 rounded-2xl bg-teal-700/40 hover:bg-teal-600/40 text-white font-semibold shadow-lg transition-all duration-300 hover:-translate-y-1"
-                    >
-                        <div className="w-8 flex justify-center">
-                            <MapPin size={20} />
-                        </div>
+                            <div className="w-8"></div>
+                        </a>
+                        : profile.foto == "/images/romulo.jpg" ?
+                            <a
+                                href="https://maps.app.goo.gl/eVdG4WciV4kwXhF88"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-center w-full px-5 py-4 rounded-2xl bg-teal-700/40 hover:bg-teal-600/40 text-white font-semibold shadow-lg transition-all duration-300 hover:-translate-y-1"
+                            >
+                                <div className="w-8 flex justify-center">
+                                    <MapPin size={20} />
+                                </div>
 
-                        <span className="flex-1 text-center text-sm">
-                            Av. Rovisco Pais, 1
-                            <br />
-                            Lisboa, Portugal
-                        </span>
+                                <span className="flex-1 text-center text-sm">
+                                    Av. Horácio Macedo, 2030 - H - 106
+                                    <br />
+                                    RJ, Brasil
+                                </span>
 
-                        <div className="w-8"></div>
-                    </a>}
+                                <div className="w-8"></div>
+                            </a>
+                            :
+                            <a
+                                href="https://maps.app.goo.gl/eVdG4WciV4kwXhF88"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-center w-full px-5 py-4 rounded-2xl bg-teal-700/40 hover:bg-teal-600/40 text-white font-semibold shadow-lg transition-all duration-300 hover:-translate-y-1"
+                            >
+                                <div className="w-8 flex justify-center">
+                                    <MapPin size={20} />
+                                </div>
+
+                                <span className="flex-1 text-center text-sm">
+                                    {t.local}
+                                </span>
+
+                                <div className="w-8"></div>
+                            </a>}
                     {profile.projetos && (
                         <div className="mt-8">
                             <button
